@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cronômetro Motivacional</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/icon.png" />
+  </head>
+  <body>
+    <div class="motivationMessage">
+      <button class="closeButton">X</button>
+      <div class="changeMessage"></div>
+    </div>
+    <div class="flex-container">
+      <div class="wrapper">
+        <div class="boxInput">
+          <input data-js="inputTimer" type="text" />
+        </div>
+        <div class="boxButton">
+          <button data-js="inputButtonStart">Começar</button>
+        </div>
+        <div class="boxButton">
+          <button data-js="inputButtonStop">Parar</button>
+        </div>
+        <div class="boxButton">
+          <button data-js="inputButtonReset">Resetar</button>
+        </div>
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="wrapper2">
+        <div class="boxDarkMode">
+          <img data-js="buttonDarkMode" src="img/dark1.png" />
+          <img data-js="buttonLightMode" src="img/light1.png" />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
